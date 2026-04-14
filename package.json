@@ -1,0 +1,26 @@
+{
+  "name": "loom",
+  "version": "0.1.0",
+  "description": "自我编织的代码工坊 — 从需求到高质量应用的全自主构建系统",
+  "type": "module",
+  "bin": {
+    "loom": "./dist/index.js"
+  },
+  "files": [
+    "dist/",
+    ".claude/skills/"
+  ],
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "build": "bun build src/index.ts --outdir dist --target node",
+    "prepublishOnly": "npm run build",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.7.0"
+  }
+}

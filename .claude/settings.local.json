@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /Users/pxy/Developer/paseo/.claude/skills/loom)",
+      "Bash(cp /Users/pxy/Developer/loom/.claude/skills/loom/* /Users/pxy/Developer/paseo/.claude/skills/loom/)",
+      "Bash(mkdir -p /Users/pxy/Developer/agent-skills-manager/.claude/skills/loom)",
+      "Bash(cp /Users/pxy/Developer/loom/.claude/skills/loom/* /Users/pxy/Developer/agent-skills-manager/.claude/skills/loom/)",
+      "Bash(mkdir -p /Users/pxy/Developer/loom/skills)",
+      "Bash(mv /Users/pxy/Developer/loom/.claude/skills/loom /Users/pxy/Developer/loom/skills/loom)"
+    ]
+  }
+}
